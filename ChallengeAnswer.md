@@ -6,6 +6,4 @@
 - Java'da MVC, Java Servlet ve Java Server Pages (JSP) teknolojileri kullanılarak kurgulanabilir. Object Oriented katmanları, MVC yapısında Model, View ve Controller katmanlarını tanımlar. Model katmanı, verileri ve verilerle ilgili işlemleri tanımlar. View katmanı, kullanıcı arayüzünü tanımlar ve verileri ekrana yansıtır. Controller katmanı, veriler ile arayüz arasındaki etkileşimi yönetir ve verilerin görüntülenmesini kontrol eder.
 
 
-## Birbirinden bağımsız iki platformun birbiriyle haberleşmesi nasıl sağlanabilir. Örneğin, X 
-platformu Java ile yazılmış olsun, Y platform u C# ile. Bu iki platformun bir biri ile iletişim 
-halinde request-response ilişkisi kurması gerekiyor. Bu yapıyı nasıl sağlarız
+## Birbirinden bağımsız iki platformun birbiriyle haberleşmesi nasıl sağlanabilir. Örneğin, X platformu Java ile yazılmış olsun, Y platform u C# ile. Bu iki platformun bir biri ile iletişim halinde request-response ilişkisi kurması gerekiyor. Bu yapıyı nasıl sağlarız
