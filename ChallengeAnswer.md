@@ -60,8 +60,11 @@ socket.onclose = function () {
 ## Bir for döngüsü ile aşağıdaki çıktıyı yazar mısınız?
 istenilen çıktı:
 
+
 public class Main {
+
     public static void main(String[] args) {
+
         for (int i = 1; i <= 10; i += 2) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
@@ -97,7 +100,7 @@ ilk yöntem Linux Terminalden SSH ile bağlanıp Server test ve dosya aktarım i
 ## İstenilen Spring projesi "Backend-Challenge" olarak repoya eklenmiştir. 
   
   
-## Proje Wiki
+## Proje 
 
   JDK = jdk-17.0.1
   Spring Boot Project : Maven/ Spring Boot:3.0.2
