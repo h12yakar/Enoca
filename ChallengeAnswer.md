@@ -134,9 +134,10 @@ Controller sınıfı, 5 HTTP metodunu (GET, POST, PUT, DELETE) içeren 4 farklı
   
 
 "updatedAt" adlı alanı 2020 Ocak ayından sonraki verileri getirmek için aşağıdaki gibi bir sorgu yazabilir
-  - http://example?q=updatedAt:[20200101000000 TO *]
-ya da
+  - http://example?q=updatedAt:[20200101000000 TO *] //yada
+
   - http://<solr_host>:<solr_port>/solr/<core_name>/select?q=updatedAt:[20200101 TO *]
+  
 Yukarıdaki sorguda, <solr_host> ve <solr_port> Solr sunucusunun host adresi ve port numarasıdır, <core_name> ise Solr çekirdeğinin adıdır. q parametresi, SOLR-QL sorgusunu içerir. updatedAt alanı için belirtilen değer aralığı 20200101 ve * arasındadır, bu nedenle sadece 2020 Ocak ayından sonra oluşturulan veriler döndürülecektir.
 
 ##
