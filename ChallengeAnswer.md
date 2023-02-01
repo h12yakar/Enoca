@@ -102,19 +102,19 @@ ilk yöntem Linux Terminalden SSH ile bağlanıp Server test ve dosya aktarım i
   
 ## Proje 
 
-  JDK = jdk-17.0.1
-  Spring Boot Project : Maven/ Spring Boot:3.0.2
-  Dependencies : 
+  - JDK = jdk-17.0.1
+  - Spring Boot Project : Maven/ Spring Boot:3.0.2
+  - Dependencies : 
               - Spring Web
               - Spring Data JPA
               - PostgreSQL Driver
               - Lombok
 
-  PostgreSQL : 
+  - PostgreSQL : 
               - Veri Tabanı Adı : "calisan" pass:"12345"
               - Column : /id, /adSoyad, /firma
 
-  Postman :  http://localhost:8080/calisan 
+  - Postman :  http://localhost:8080/calisan 
   
 Conttroller.java  
 Bu sınıfta notta belirtilen istemleri dökümante edersek, @RestController ve @RequestMapping("/calisan") anotasyonları ile tanımlanmıştır. Anotasyonlar, bu sınıfın HTTP istekleri için REST API endpointi olarak çalışacağını ve /calisan URL'i ile erişileceğini belirtiriz.
