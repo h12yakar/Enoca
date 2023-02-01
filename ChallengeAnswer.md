@@ -59,13 +59,12 @@ socket.onclose = function () {
 
 ## Bir for döngüsü ile aşağıdaki çıktıyı yazar mısınız?
 /* istenilen çıktı:
-*  *
-*  **
-*  ****
-*  ******
-*  ********
-*  **********
-*/
+*
+**
+****
+******
+********
+**********
 
 public class Main {
     public static void main(String[] args) {
