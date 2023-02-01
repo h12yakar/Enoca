@@ -134,7 +134,7 @@ Controller sınıfı, 5 HTTP metodunu (GET, POST, PUT, DELETE) içeren 4 farklı
   
 
 "updatedAt" adlı alanı 2020 Ocak ayından sonraki verileri istenilen şekilde doldurup getirmek için aşağıdaki gibi bir sorgu yazabilir
-  - http://example?q=updateAt:[2020-01-01T00:00:00Z TO *]
+  - http://example?query=updateAt:[2020-01-01T00:00:00Z TO *]
 
   - http://<solr_host>:<solr_port>/solr/<core_name>/select?q=updatedAt:[20200101 TO *]
   
