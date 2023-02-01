@@ -123,10 +123,10 @@ Ayrıca bu sınıf Calisan sınıfının nesnesini injekte etmek için @Autowire
 
 Controller sınıfı, 5 HTTP metodunu (GET, POST, PUT, DELETE) içeren 4 farklı endpoint tanımlar.
 
-@GetMapping: Tüm Calisan nesnelerini döndüren bir endpoint tanımlar.
-@PostMapping: Yeni bir Calisan nesnesi eklemek için kullanılan bir endpoint tanımlar.
-@PutMapping: Var olan bir Calisan nesnesinin güncellenmesi için kullanılan bir endpoint tanımlar.
-@DeleteMapping("/{id}"): ID'si verilen bir Calisan nesnesinin silinmesi için kullanılan bir endpoint tanımlar.
+- @GetMapping: Tüm Calisan nesnelerini döndüren bir endpoint tanımlar.
+- @PostMapping: Yeni bir Calisan nesnesi eklemek için kullanılan bir endpoint tanımlar.
+- @PutMapping: Var olan bir Calisan nesnesinin güncellenmesi için kullanılan bir endpoint tanımlar.
+- @DeleteMapping("/{id}"): ID'si verilen bir Calisan nesnesinin silinmesi için kullanılan bir endpoint tanımlar.
   
 ##
   
