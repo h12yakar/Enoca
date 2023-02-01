@@ -10,7 +10,7 @@ etkileşimin ayrı ayrı yönetilmesini kolaylaştırır. Bu, yazılımın daha 
 
 - Java'da MVC, Java Servlet ve Java Server Pages (JSP) teknolojileri kullanılarak kurgulanabilir. Object Oriented katmanları, MVC yapısında Model, View ve Controller katmanlarını tanımlar. Model katmanı, verileri ve verilerle ilgili işlemleri tanımlar. View katmanı, kullanıcı arayüzünü tanımlar ve verileri ekrana yansıtır. Controller katmanı, veriler ile arayüz arasındaki etkileşimi yönetir ve verilerin görüntülenmesini kontrol eder.
 
-## _____________________________________________________________________________________________________________________________________________________
+##
 
 ## Birbirinden bağımsız iki platformun birbiriyle haberleşmesi nasıl sağlanabilir. Örneğin, X platformu Java ile yazılmış olsun, Y platform u C# ile. Bu iki platformun bir biri ile iletişim halinde request-response ilişkisi kurması gerekiyor. Bu yapıyı nasıl sağlarız?
 
@@ -22,7 +22,7 @@ etkileşimin ayrı ayrı yönetilmesini kolaylaştırır. Bu, yazılımın daha 
 
 - 	REST (Representational State Transfer): X platformu tarafından yapılan HTTP isteklerine yanıt vermek için Y platformu tarafından bir REST servisi oluşturulabilir. Bu, HTTP protokolü kullanılarak gerçekleştirilir ve JSON veya XML gibi veri biçimleri kullanılabilir.
 
-## _____________________________________________________________________________________________________________________________________________________
+##
 
 ## Bir web sayfasında ekran sürekli Backend’ den veya bir başka yapı tarafından güncelleniyor. Siz, web sayfasını refresh etmeden bu güncel bilgiyi anlık ekrana nasıl yansıtırsınız.
 
@@ -55,7 +55,7 @@ socket.onclose = function () {
   console.log("Bağlantı kapandı.");
 };
 
-##_____________________________________________________________________________________________________________________________________________________
+##
 
 ## Bir for döngüsü ile aşağıdaki çıktıyı yazar mısınız?
 istenilen çıktı:
@@ -74,7 +74,7 @@ public class Main {
 
     }}
 
-##_____________________________________________________________________________________________________________________________________________________
+##
 
 ##  Firmada çalışman için sana remote bir linux server verildi. Elinde ip adresi port bilgisi kullanıcı adi ve şifren var. Server a erişimi nasıl test edersin, Server a nasıl erişirsin, Server'a nasıl dosya atarsın, Serverdan nasıl dosya çekersin?
 
@@ -95,7 +95,7 @@ ilk yöntem Linux Terminalden SSH ile bağlanıp Server test ve dosya aktarım i
 - SFTP ile dosya transferi yapmak için, komut satırında "sftp [kullanıcı adı]@[IP adresi]" komutunu çalıştırın ve kullanıcı adı ve şifreyi girerek giriş yaparız.
 - Dosya göndermek için "put [dosya ismi]" komutu, dosya çekmek için "get [dosya ismi]" komutu kullanmamız yeterli olacaktır.
   
-##_____________________________________________________________________________________________________________________________________________________
+##
   
 ## İstenilen Spring projesi "Backend-Challenge" olarak repoya eklenmiştir. 
   
@@ -128,7 +128,7 @@ Controller sınıfı, 5 HTTP metodunu (GET, POST, PUT, DELETE) içeren 4 farklı
 @PutMapping: Var olan bir Calisan nesnesinin güncellenmesi için kullanılan bir endpoint tanımlar.
 @DeleteMapping("/{id}"): ID'si verilen bir Calisan nesnesinin silinmesi için kullanılan bir endpoint tanımlar.
   
-##_____________________________________________________________________________________________________________________________________________________
+##
   
 ## - Apache Solr servisine yazılacak bir query örneği Apache Solr kullanılan sql programlarından daha farklı runtime bir database. Solr a hali hazırda kayıtlı bir alan olduğunu düşünelim. Alanın ismi “updatedAt” long tipinde tutulan bir alan. Ben 2020 Ocak ayından sonraki verileri getir dediğimde solr a nasıl bir query yazılmalı. http://example?query= kısmını nasıl doldurmalıyım?
   
@@ -139,7 +139,7 @@ ya da
   - http://<solr_host>:<solr_port>/solr/<core_name>/select?q=updatedAt:[20200101 TO *]
 Yukarıdaki sorguda, <solr_host> ve <solr_port> Solr sunucusunun host adresi ve port numarasıdır, <core_name> ise Solr çekirdeğinin adıdır. q parametresi, SOLR-QL sorgusunu içerir. updatedAt alanı için belirtilen değer aralığı 20200101 ve * arasındadır, bu nedenle sadece 2020 Ocak ayından sonra oluşturulan veriler döndürülecektir.
 
-##_____________________________________________________________________________________________________________________________________________________
+##
   Saygılarımla.
   Habip Yakar
 
