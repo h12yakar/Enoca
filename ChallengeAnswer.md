@@ -10,7 +10,7 @@ etkileşimin ayrı ayrı yönetilmesini kolaylaştırır. Bu, yazılımın daha 
 
 - Java'da MVC, Java Servlet ve Java Server Pages (JSP) teknolojileri kullanılarak kurgulanabilir. Object Oriented katmanları, MVC yapısında Model, View ve Controller katmanlarını tanımlar. Model katmanı, verileri ve verilerle ilgili işlemleri tanımlar. View katmanı, kullanıcı arayüzünü tanımlar ve verileri ekrana yansıtır. Controller katmanı, veriler ile arayüz arasındaki etkileşimi yönetir ve verilerin görüntülenmesini kontrol eder.
 
-##_____________________________________________________________________________________________________________________________________________________
+## _____________________________________________________________________________________________________________________________________________________
 
 ## Birbirinden bağımsız iki platformun birbiriyle haberleşmesi nasıl sağlanabilir. Örneğin, X platformu Java ile yazılmış olsun, Y platform u C# ile. Bu iki platformun bir biri ile iletişim halinde request-response ilişkisi kurması gerekiyor. Bu yapıyı nasıl sağlarız?
 
@@ -22,7 +22,7 @@ etkileşimin ayrı ayrı yönetilmesini kolaylaştırır. Bu, yazılımın daha 
 
 - 	REST (Representational State Transfer): X platformu tarafından yapılan HTTP isteklerine yanıt vermek için Y platformu tarafından bir REST servisi oluşturulabilir. Bu, HTTP protokolü kullanılarak gerçekleştirilir ve JSON veya XML gibi veri biçimleri kullanılabilir.
 
-##_____________________________________________________________________________________________________________________________________________________
+## _____________________________________________________________________________________________________________________________________________________
 
 ## Bir web sayfasında ekran sürekli Backend’ den veya bir başka yapı tarafından güncelleniyor. Siz, web sayfasını refresh etmeden bu güncel bilgiyi anlık ekrana nasıl yansıtırsınız.
 
