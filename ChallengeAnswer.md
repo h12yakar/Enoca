@@ -133,8 +133,8 @@ Controller sınıfı, 5 HTTP metodunu (GET, POST, PUT, DELETE) içeren 4 farklı
 ## - Apache Solr servisine yazılacak bir query örneği Apache Solr kullanılan sql programlarından daha farklı runtime bir database. Solr a hali hazırda kayıtlı bir alan olduğunu düşünelim. Alanın ismi “updatedAt” long tipinde tutulan bir alan. Ben 2020 Ocak ayından sonraki verileri getir dediğimde solr a nasıl bir query yazılmalı. http://example?query= kısmını nasıl doldurmalıyım?
   
 
-"updatedAt" adlı alanı 2020 Ocak ayından sonraki verileri getirmek için aşağıdaki gibi bir sorgu yazabilir
-  - http://example?q=updatedAt:[20200101000000 TO *] //yada
+"updatedAt" adlı alanı 2020 Ocak ayından sonraki verileri istenilen şekilde doldurup getirmek için aşağıdaki gibi bir sorgu yazabilir
+  - http://example?q=updateAt:[2020-01-01T00:00:00Z TO *]
 
   - http://<solr_host>:<solr_port>/solr/<core_name>/select?q=updatedAt:[20200101 TO *]
   
